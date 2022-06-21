@@ -48,4 +48,4 @@ It may be an option to keep the Key far away from the Value altough it should **
 
 Another good idea is to change the name of the script :)
 
-⚠️⚠️⚠️ **You can loose all your password by initialize the Value file!** ⚠️⚠️⚠️
+⚠️⚠️⚠️ **You loose all your passwords by initializing the Value file!** ⚠️⚠️⚠️
