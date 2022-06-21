@@ -15,7 +15,7 @@ args,_ = parser.parse_known_args()
 
 
 
-V_PATH=args.value_path
+V_PATH=args.value_path # "D://Andrea//Folder5//Key"
 K_PATH=args.key_path # "C://Users//Andrea//Desktop//Folder1//Folder2//Key"
 HELP_TIMEOUT=args.timeout
 PASS_TIMEOUT=args.ptimeout
