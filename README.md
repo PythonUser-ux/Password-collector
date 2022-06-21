@@ -1,7 +1,7 @@
 # Password collector
 A convenient tool to keep safe your passwords and remember all of them by just knowing a single "super" password. <br>
 
-Once converted to executable a camouflaged script will be the only way to retrieve all your passwords from an encrypted file. <br>
+Once converted to executable a camouflaged python script will be the only way to retrieve all your passwords from an encrypted file. <br>
 Your passwords will stored in a python dictionary object and encrypted using Fernet's symmetric authenticated cryptography.
 
 - Install the following library to encode your passwords
@@ -15,11 +15,13 @@ Before starting collecting and encrypting your passwords you have to:
 - modify the script by specifying the unique password required to access all the others and the directories of the Value (the encrypted dictionary object) and the Key (the file used to decrypt) files. <br>
   The parts to be modified are the tokens V_PATH, K_PATH and PASSWORD. The default Value and Key directories are the same as the .py file. <br>
 
-- run the script from the command line by passing -r 1 as argument, it will initialize the Key and the Value files in the directories you indicated. The Value file initially contains a single example of key-password pair.
+- run the script from the command-line by passing -r 1 as argument, it will initialize the Key and the Value files in the directories you indicated.
 
 ```
 $ python "C://Users//Andrea//Desktop//Frenet password collector.py" -r 1
 ```
+
+The Value file initially contains a single example of key-password pair.
 
 - convert the script to executable (for you security)
 
@@ -36,7 +38,7 @@ Again if you pass "add" you can add (or modify an existing one) a new key and a 
 If you type "rem" you can remove passwords by entering the key.
 <br>
 
-Is it possible to generate the key and replacing the old one by running the program in the command line using the command --change_key 1.
+Is it possible to generate a new key and replace the old one by running the program in the command-line using the command --change_key 1. <br> In this case the Value file will be automatically decrypted with the old key and encrypted with the new one.
 
 - Warnings and suggestions <br>
 
