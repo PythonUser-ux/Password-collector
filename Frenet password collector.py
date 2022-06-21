@@ -154,5 +154,5 @@ while True:
       try:
          print("Somma: "+str(int(password)+int(addendum2)))
       except:
-         print("Valori non numerici sono stati inseriti")
+         print("Error: non-numerical values")
       print()
