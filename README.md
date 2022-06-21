@@ -47,3 +47,5 @@ You can use each time a different path for Value and Key by passing the desiderd
 It may be an option to keep the Key far away from the Value altough it should **never** get lost. <br>
 
 Another good idea is to change the name of the script :)
+
+⚠️⚠️⚠️ **You can loose all your password by initialize the Value file!** ⚠️⚠️⚠️
