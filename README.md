@@ -44,4 +44,6 @@ Is it possible to generate a new key and replace the old one by running the prog
 
 You can use each time a different path for Value and Key by passing the desiderd path using the arguments --value_path and --key_path. <br>
 
-It may be an option to keep the Key far away from the Value altough it should **never** get lost.
+It may be an option to keep the Key far away from the Value altough it should **never** get lost. <br>
+
+Another good idea is to change the name of the script :)
