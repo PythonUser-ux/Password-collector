@@ -1,5 +1,5 @@
 # Password collector
-A convenient tool to keep safe your passwords and remember all of them by just knowing a single "super" password. <br>
+A convenient tool to keep safe your passwords and remember them all by just knowing a single "super" password. <br>
 
 Once converted to executable a camouflaged python script will be the only way to retrieve all your passwords from an encrypted file. <br>
 Your passwords will stored in a python dictionary object and encrypted using Fernet's symmetric authenticated cryptography.
